@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"go-contacts/app"
-	"go-contacts/controllers"
 	"net/http"
 	"os"
+
+	"github.com/fredericalix/go-contacts/app"
+	"github.com/fredericalix/go-contacts/controllers"
 
 	"github.com/gorilla/mux"
 )
